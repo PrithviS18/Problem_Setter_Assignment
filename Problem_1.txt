@@ -5,7 +5,7 @@ You are given N number pieces s1,s2,…,sN. How many pairs ( i , j ) (for 1<= i,
 Here, the ‘+’ operator denotes the concatenation of the two strings. For example, if si is 13, and sj is 37, then si+sj is 1337.
 
 Input
-The second line contains a single integer N (1≤N≤2⋅1e5) — the number of cake pieces.
+The second line contains a single integer N (1≤N≤1e3) — the number of cake pieces.
 
 The third line contains N non-empty strings s1,s2,…,sN, each of length at most 5 and consisting only of digits from 1 to 9
 .
