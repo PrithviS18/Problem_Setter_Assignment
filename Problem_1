@@ -1,0 +1,15 @@
+A cake is a non-empty string of digits from 1 to 9.
+A good cake is such a cake that it has an even length and
+the sum of digits in the first half is equal to the sum of digits in the second half.
+You are given N number pieces s1,s2,…,sN. How many pairs ( i , j ) (for 1<= i, j <= N) are there such that si + sj is a  good number? Note that it's possible that i = j.
+Here, the ‘+’ operator denotes the concatenation of the two strings. For example, if si is 13, and sj is 37, then si+sj is 1337.
+
+Input
+The first line contains a single integer N (1≤n≤2⋅1e5) — the number of  pieces.
+
+The second line contains N non-empty strings s1,s2,…,sN, each of length at most 5 and consisting only of digits from 1 to 9
+.
+
+Output
+Print a single integer — the number of pairs (i,j)(for 1≤i,j≤n) such that si+sj is a good cake.
+
