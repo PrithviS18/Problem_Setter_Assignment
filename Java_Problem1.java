@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = 1; // Number of test cases (fixed as 1 in the original code)
+        int n = sc.nextInt();
         while (t-- > 0) {
             solve(sc);
         }
