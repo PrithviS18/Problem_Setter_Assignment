@@ -4,9 +4,7 @@ For example, a string "aaba". Removing (first,second)characters gives "ba" and r
 (third,fourth) characters results in "aa" so only two different strings is possible.
 
 Input
-The first line of input data contains a single integer t (1≤t≤1e4) — number of test cases.
-The descriptions of the test cases follow.
-The first line of the description of each test case contains an integer n(3≤n≤2⋅105).
+The first line of the description of each test case contains an integer n(3≤n≤1e3).
 The second line of the description of each test case contains a string s of length n consisting of lowercase Latin letters.
 
 Output
