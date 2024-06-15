@@ -1,0 +1,13 @@
+Count how many different strings can be obtained after removing two consequetive characters from the string S, containing lowercase latin letters.
+
+For example, a string "aaba". Removing (first,second)characters gives "ba" and removing (second,third) characters gives "aa", but notice removing
+(third,fourth) characters results in "aa" so only two different strings is possible.
+
+Input
+The first line of input data contains a single integer t (1≤t≤1e4) — number of test cases.
+The descriptions of the test cases follow.
+The first line of the description of each test case contains an integer n(3≤n≤2⋅105).
+The second line of the description of each test case contains a string s of length n consisting of lowercase Latin letters.
+
+Output
+For each test case print one integer — the number of distinct strings that can be obtained by removing two consecutive letters.
