@@ -27,7 +27,6 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Scanner sc = new Scanner(br);
         int t = 1;
-        t = sc.nextInt();
         for (int i = 1; i <= t; i++) {
             solve(sc);
         }
