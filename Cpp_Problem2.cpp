@@ -29,7 +29,6 @@ int main(){
         freopen("output.txt","w",stdout);
     #endif
 	int t=1;
-	cin >> t;
     int i=1;
 	while( i<=t ){
 		solve(i);
